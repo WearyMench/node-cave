@@ -20,7 +20,7 @@ const card = fs.readFileSync(`${__dirname}/template/card.html`, "utf-8");
 const server = http.createServer((req, res) => {
   const { pathname, query } = url.parse(req.url, true);
 
-  if (pathname === "/" && req.method === "GET") {
+  if (pathname === "/" || (pathname === "/overview" && req.method === "GET")) {
     res.writeHead(200, { "Content-Type": "text/html" });
     const cardsHtml = dataObj.map((el) => replaceTemplate(card, el)).join("");
     const output = overview.replace(/{%CARDS%}/g, cardsHtml);
