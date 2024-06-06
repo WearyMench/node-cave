@@ -38,6 +38,9 @@ const server = http.createServer((req, res) => {
       res.writeHead(404, { "Content-Type": "text/html" });
       res.end("Not Found");
     }
+  } else if (pathname === "/api" && req.method === "GET") {
+    res.writeHead(200, { "Content-Type": "application/json" });
+    res.end(jsonData);
   } else {
     res.writeHead(404, { "Content-Type": "text/html" });
     res.end("Not Found");
