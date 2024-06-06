@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "title": "Godzilla",
+    "description": "El rey de los monstruos, una criatura gigantesca que emerge del océano para sembrar el caos.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/bucket-4fe1c.appspot.com/o/godzilla.jpg?alt=media&token=b6597507-1362-418a-9f20-66fa29e92c3a",
+    "large_description": "Godzilla es una criatura prehistórica gigantesca despertada por radiación nuclear. Conocido por su increíble fuerza y capacidad para lanzar un rayo atómico, Godzilla ha sido tanto destructor como salvador de la humanidad en diversas ocasiones."
+  },
+  {
+    "id": 1,
+    "title": "Drácula",
+    "description": "El famoso vampiro que se alimenta de la sangre de los vivos y puede transformarse en un murciélago.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/bucket-4fe1c.appspot.com/o/dracula.jpg?alt=media&token=619e73ab-0401-4471-8a64-57bea03e9f31",
+    "large_description": "Drácula, también conocido como el Conde Drácula, es un vampiro legendario que reside en un castillo en Transilvania. Con habilidades sobrenaturales como la inmortalidad y la capacidad de transformarse, Drácula es uno de los personajes más icónicos del género de terror."
+  },
+  {
+    "id": 2,
+    "title": "Frankenstein",
+    "description": "Una criatura hecha de partes de cadáveres, creada por el científico Victor Frankenstein.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/bucket-4fe1c.appspot.com/o/frankestein.jpg?alt=media&token=2c3a6d40-3346-4d34-94a3-341c57de3aa3",
+    "large_description": "Frankenstein, conocido también como el monstruo de Frankenstein, es el resultado de un experimento del Dr. Victor Frankenstein. Aunque inicialmente busca comprensión y aceptación, su apariencia y origen lo llevan a ser rechazado y temido por la humanidad."
+  }
+]

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://static.thenounproject.com/png/24990-200.png"
+      type="image/x-icon"
+    />
+    <title>Monster details</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #f0f0f0;
+      }
+      .detail-container {
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        width: 600px;
+        max-width: 90%;
+        text-align: center;
+        padding: 20px;
+      }
+      .detail-container img {
+        width: 100%;
+        height: auto;
+      }
+      .detail-content {
+        padding: 15px;
+      }
+      .detail-title {
+        font-size: 2em;
+        margin: 10px 0;
+      }
+      .detail-description {
+        font-size: 1.2em;
+        margin: 10px 0;
+        color: #555;
+      }
+      .back-link {
+        display: inline-block;
+        margin: 15px 0;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+      .back-link:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="detail-container">
+      <img src="{%IMAGE%}" alt="{%TITLE%}" />
+      <div class="detail-content">
+        <h2 class="detail-title">{%TITLE%}</h2>
+        <p class="detail-description">{%LARGE_DESCRIPTION%}</p>
+        <a href="/" class="back-link">Volver a la página principal</a>
+      </div>
+    </div>
+  </body>
+</html>
