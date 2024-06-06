@@ -3,9 +3,12 @@
 const http = require("http");
 const fs = require("fs");
 const url = require("url");
+const dotenv = require("dotenv");
+
+dotenv.config();
 
 const replaceTemplate = require("./module/replaceTemplates");
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 const jsonData = fs.readFileSync(`${__dirname}/data/monsters.json`, "utf-8");
 const dataObj = JSON.parse(jsonData);
