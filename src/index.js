@@ -1,4 +1,4 @@
-// A simple API to retrieve data from a JSON file and display it in a template.
+// A simple program to retrieve data from a JSON file and display it in a template.
 
 const http = require("http");
 const fs = require("fs");
